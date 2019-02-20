@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "Actualize Chrome Extension",
+  "version": "0.1",
+  "description": "Bookmarks to help you",
+  "icons": {
+    "128": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": ["content.js"]
+    }
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+    "default_title": "Actualize Bookmarks"
+  }
+}

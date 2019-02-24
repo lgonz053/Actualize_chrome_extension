@@ -39,7 +39,7 @@ document.querySelector('.github').addEventListener('click', github);
 document.querySelector('.ruby-docs').addEventListener('click', rubyDocs);
 document.querySelector('.w3schools').addEventListener('click', w3Schools);
 document.querySelector('.killnil').addEventListener('click', killNill);
-document.querySelector('.bootstrap').addEventListener('click', boostrap);
+document.querySelector('.rubygems').addEventListener('click', rubyGems);
+document.querySelector('.bootstrap').addEventListener('click', bootstrap);
 document.querySelector('.programmable_web').addEventListener('click', programmableWeb);
 document.querySelector('.stack_overflow').addEventListener('click', stackOverflow);
-document.querySelector('.rubygems').addEventListener('click', rubyGems)
